@@ -117,3 +117,9 @@ deploy:
   type: git
   repository: https://github.com/HylAa/aliangBlog.github.io.git
   branch: master
+
+# hexo-admin authentification
+admin:
+  username: aliang
+  password_hash: $2a$10$IDHA/2DlKQJsL/IOnxzKZeDqwCxUqi/.4HMOTJT2jh6SfTvZC3oGu
+  secret: aliang
