@@ -102,6 +102,7 @@ theme: butterfly
 
 #播放器
 aplayer:
+  meting: true
   asset_inject: false
 
 #本地搜索
