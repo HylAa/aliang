@@ -11,12 +11,24 @@ menu:
   时间轴: /archives/ || fas fa-archive
   标签: /tags/ || fas fa-tags
   分类: /categories/ || fas fa-folder-open
-  # 清单|| fa fa-heartbeat: 
-  # 音乐: /music/ || fas fa-music 
-  照片: /Gallery/ || fas fa-images 
-  # 电影: /movies/ || fas fa-video
-  友链: /link/ || fas fa-link
+  娱乐 || fa fa-heartbeat:
+    - 音乐 || /music/ || fas fa-music 
+    - 照片 || /instock/ || fas fa-images 
+    - 电影 || /movies/ || fas fa-video
+  友链: /link / || fas fa-link
   关于: /about/ || fas fa-heart
+
+# menu:
+#   首页: / || fas fa-home
+#   时间轴: /archives/ || fas fa-archive
+#   标签: /tags/ || fas fa-tags
+#   分类: /categories/ || fas fa-folder-open
+#   # 清单|| fa fa-heartbeat: 
+#   # 音乐: /music/ || fas fa-music 
+#   照片: /instock/ || fas fa-images 
+#   # 电影: /movies/ || fas fa-video
+#   友链: /link/ || fas fa-link
+#   关于: /about/ || fas fa-heart
 
 # Hide the child menu items in mobile sidebar
 hide_sidebar_menu_child: false
@@ -56,7 +68,7 @@ algolia_search:
 
 # Local search
 local_search:
-  enable: false
+  enable: true
 
 # Math (數學)
 # --------------------------------------
@@ -333,7 +345,7 @@ twikoo:
 
 # Chat Button [recommend]
 # It will create a button in the bottom right corner of website, and hide the origin button
-chat_btn: false
+chat_btn: true
 
 # The origin chat button is displayed when scrolling up, and the button is hidden when scrolling down
 chat_hide_show: true
@@ -592,7 +604,9 @@ subtitle:
   # 如果有英文雙引號' " ',請使用轉義字元 &quot;
   # 開頭不允許轉義字元，如需要，請把整個句子用雙引號包住
   # 如果關閉打字效果，subtitle只會顯示sub的第一行文字
-  sub: 今日事,今日毕
+  sub:
+    - 今日事&#44;今日毕
+    - Never put off till tomorrow what you can do today
 
 # Loading Animation (加載動畫)
 preloader: false
@@ -684,7 +698,7 @@ translate:
   # The text of a button
   default: 繁
   # the language of website (1 - Traditional Chinese/ 2 - Simplified Chinese）
-  defaultEncoding: 1
+  defaultEncoding: 2
   # Time delay
   translateDelay: 0
   # The text of the button when the language is Simplified Chinese
@@ -704,7 +718,7 @@ darkmode:
   # autoChangeMode: 1  Following System Settings, if the system doesn't support dark mode, it will switch dark mode between 6 pm to 6 am
   # autoChangeMode: 2  Switch dark mode between 6 pm to 6 am
   # autoChangeMode: false
-  autoChangeMode: true
+  autoChangeMode: false
 
 # Lightbox (圖片大圖查看模式)
 # --------------------------------------
@@ -735,8 +749,8 @@ note:
   #  - modern    bs-callout new (v2-v3) alert style.
   #  - flat      flat callout style with background, like on Mozilla or StackOverflow.
   #  - disabled  disable all CSS styles import of note tag.
-  style: flat
-  icons: true
+  style: simple
+  icons: false
   border_radius: 3
   # Offset lighter of background in % for modern and flat styles (modern: -12 | 12; flat: -18 | 6).
   # Offset also applied to label tag variables. This option can work with disabled note tag.
@@ -763,7 +777,7 @@ pjax:
 
 # Inject the css and script (aplayer/meting)
 aplayerInject:
-  enable: false
+  enable: true
   per_page: true
 
 # Snackbar (Toast Notification 彈窗)

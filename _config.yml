@@ -100,6 +100,16 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: butterfly
 
+#播放器
+aplayer:
+  asset_inject: false
+
+#本地搜索
+search:
+  path: search.xml
+  field: post
+  content: true
+
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
