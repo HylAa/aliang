@@ -123,3 +123,13 @@ admin:
   username: aliang
   password_hash: $2a$10$IDHA/2DlKQJsL/IOnxzKZeDqwCxUqi/.4HMOTJT2jh6SfTvZC3oGu
   secret: aliang
+
+# hexo-renderer-kramed 数学公式
+kramed:
+  gfm: true
+  pedantic: false
+  sanitize: false
+  tables: true
+  breaks: true
+  smartLists: true
+  smartypants: true
