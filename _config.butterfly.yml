@@ -304,7 +304,7 @@ gitalk:
 # https://valine.js.org
 valine:
   appId: RFgqyOWxM0AgcGf3WgsWfdog-MdYXbMMI # leancloud application app id
-  APPkEY: iL6p4vh10hgmvyfPLx6E3u6c # leancloud application app key
+  appKey: Il6P4VH10HGMVYFplX6e3U6C # leancloud application app key
   pageSize: 10 # comment list page size
   avatar: monsterid # gravatar style https://valine.js.org/#/avatar
   lang: zh-CN # i18n: zh-CN/zh-TW/en/ja
@@ -347,7 +347,7 @@ twikoo:
 
 # Chat Button [recommend]
 # It will create a button in the bottom right corner of website, and hide the origin button
-chat_btn: true
+chat_btn: false
 
 # The origin chat button is displayed when scrolling up, and the button is hidden when scrolling down
 chat_hide_show: true
@@ -490,7 +490,7 @@ tag_ui: # 留空或 index
 background:
 
 # Footer Background
-footer_bg: false
+footer_bg: true
 
 # the position of bottom right button/default unit: px (右下角按鈕距離底部的距離/默認單位為px)
 rightside-bottom:
@@ -508,7 +508,7 @@ canvas_ribbon:
   size: 150
   alpha: 0.6
   zIndex: -1
-  click_to_change: false
+  click_to_change: true
   mobile: false
 
 # Fluttering Ribbon (動態彩帶)
@@ -536,7 +536,7 @@ activate_power_mode:
 
 # Mouse click effects: fireworks (鼠標點擊效果: 煙火特效)
 fireworks:
-  enable: true
+  enable: false
   zIndex: 9999 # -1 or 9999
   mobile: false
 
@@ -562,7 +562,7 @@ display_mode: light
 
 # Beautify (美化頁面顯示)
 beautify:
-  enable: false
+  enable: true
   field: post # site/post
   title-prefix-icon: '\f0c1'
   title-prefix-icon-color: '#F47466'
@@ -626,6 +626,7 @@ aside:
     enable: true
     description:
     button:
+      enable: true
       icon: fab fa-github
       text: Follow 阿良
       link: https://gitee.com/ahlian
@@ -673,12 +674,13 @@ newest_comments:
   enable: false
   limit: 6
   avatar: true
-  leancloud:
-    enable: false
-    appId: # leancloud application app id
-    appKey: # leancloud application app key
-    serverURL: # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
-    default_avatar: # mp/identicon/monsterid/wavatar/retro/robohash/blank
+  valine: false
+  # leancloud:
+  #   enable: false
+  #   appId: # leancloud application app id
+  #   appKey: # leancloud application app key
+  #   serverURL: # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
+  #   default_avatar: # mp/identicon/monsterid/wavatar/retro/robohash/blank
   github_issues:
     enable: false
     repo:
