@@ -55,7 +55,7 @@ copy:
 # formal:
 #   icon: link || the description
 social:
-  # fab fa-github: https://github.com/xxxxx || Github
+  fab fa-github: https://github.com/HylAa || Github
   # fas fa-envelope: mailto:xxxxxx@gmail.com || Email
 
 # search (搜索)
@@ -93,15 +93,15 @@ katex:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: /img/favicon.png
+favicon: /MyUseFile/img/favicon.png
 
 # Avatar (頭像)
 avatar:
-  img:
-  effect: true
+  img: /MyUseFile/img/avatar.png
+  effect: false
 
 # The banner image of home page
-index_img: /img/index.webp
+index_img: /MyUseFile/img/index.webp
 
 # If the banner of page not setting, it will show the top_img
 default_top_img:
@@ -138,11 +138,14 @@ cover:
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
   default_cover:
     # - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
+    - https://cdn.jsdelivr.net/gh/jerryc127/CDN@latest/cover/default_bg.png
+    - https://cdn.jsdelivr.net/gh/jerryc127/CDN@latest/cover/default_bg2.png
+    - https://cdn.jsdelivr.net/gh/jerryc127/CDN@latest/cover/default_bg3.png
 
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:
-  flink: /img/friend_404.gif
-  post_page: /img/404.jpg
+  flink: /MyUseFile/img/friend_404.gif
+  post_page: /MyUseFile/img/404.jpg
 
 # A simple 404 page
 error_404:
@@ -152,14 +155,14 @@ error_404:
 
 post_meta:
   page: # Home Page
-    date_type: created # created or updated or both 主頁文章日期是創建日或者更新日或都顯示
+    date_type: both # created or updated or both 主頁文章日期是創建日或者更新日或都顯示
     date_format: relative # date/relative 顯示日期還是相對日期
     categories: true # true or false 主頁是否顯示分類
     tags: true # true or false 主頁是否顯示標籤
     label: true # true or false 顯示描述性文字
   post:
     date_type: both # created or updated or both 文章頁日期是創建日或者更新日或都顯示
-    date_format: date # date/relative 顯示日期還是相對日期
+    date_format: relative # date/relative 顯示日期還是相對日期
     categories: true # true or false 文章頁是否顯示分類
     tags: true # true or false 文章頁是否顯示標籤
     label: true # true or false 顯示描述性文字
@@ -199,10 +202,10 @@ post_copyright:
 reward:
   enable: true
   QR_code:
-    - img: /img/wechat.jpg
+    - img: /MyUseFile/img/wechat.jpg
       link:
       text: 微信
-    - img: /img/alipay.jpg
+    - img: /MyUseFile/img/alipay.jpg
       link:
       text: 支付宝
 
@@ -312,7 +315,7 @@ valine:
   guest_info: nick,mail,link # valine comment header info (nick/mail/link)
   recordIP: false # Record reviewer IP
   serverURLs: # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
-  bg: /img/yes.webp # valine background
+  bg: /MyUseFile/img/yes.webp # valine background
   emojiCDN: //i0.hdslb.com/bfs/emote/ # emoji CDN
   enableQQ: false # enable the Nickname box to automatically get QQ Nickname and QQ Avatar
   requiredFields: nick,mail # required fields (nick/mail)
@@ -388,7 +391,7 @@ footer:
   owner:
     enable: true
     since: 2018
-  custom_text:  Hi,  welcome  to  my  <a  href="https://butterfly.js.org/">blog</a>!
+  custom_text:
   copyright: true # Copyright of theme and framework
 
 # Analysis
@@ -644,7 +647,7 @@ aside:
   card_tags:
     enable: true
     limit: 40 # if set 0 will show all
-    color: false
+    color: true
   card_archives:
     enable: true
     type: monthly # yearly or monthly
@@ -671,10 +674,10 @@ runtimeshow:
 
 # Aside widget - Newest Comments
 newest_comments:
-  enable: false
+  enable: true
   limit: 6
   avatar: true
-  valine: false
+  valine: true
   # leancloud:
   #   enable: false
   #   appId: # leancloud application app id
@@ -742,7 +745,7 @@ fancybox: true
 # mermaid
 # see https://github.com/knsv/mermaid
 mermaid:
-  enable: false
+  enable: true
   # built-in themes: default/forest/dark/neutral
   theme: default
 
@@ -814,7 +817,7 @@ pangu:
 # https://github.com/verlok/lazyload
 lazyload:
   enable: false
-  post: /img/loading.gif
+  post: /MyUseFile/img/loading.gif
 
 # PWA
 # See https://github.com/JLHwung/hexo-offline
