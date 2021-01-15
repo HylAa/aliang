@@ -314,13 +314,6 @@ canvas:not(#ribbon-canvas),
   -ms-animation: scroll-down-effect 1.5s infinite;
   animation: scroll-down-effect 1.5s infinite;
 }
-.avatar-img {
-  -webkit-animation: avatar_turn_around 2s linear infinite;
-  -moz-animation: avatar_turn_around 2s linear infinite;
-  -o-animation: avatar_turn_around 2s linear infinite;
-  -ms-animation: avatar_turn_around 2s linear infinite;
-  animation: avatar_turn_around 2s linear infinite;
-}
 .reward-main {
   -webkit-animation: donate_effcet 0.3s 0.1s ease both;
   -moz-animation: donate_effcet 0.3s 0.1s ease both;
@@ -3460,6 +3453,9 @@ blockquote footer cite:before {
   color: #49b1f5;
   text-decoration: underline;
 }
+#post-info #post-meta time {
+  display: none;
+}
 #post > #post-info {
   margin-bottom: 1.5rem;
 }
@@ -4490,7 +4486,7 @@ _:future,
   background: var(--btn-hover-color);
 }
 #vcomment textarea {
-  background: url("/img/yes.webp") 100% 100% no-repeat;
+  background: url("/MyUseFile/img/yes.webp") 100% 100% no-repeat;
 }
 #vcomment textarea:focus {
   background-image: none;
