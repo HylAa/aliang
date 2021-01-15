@@ -635,7 +635,7 @@ aside:
       link: https://gitee.com/ahlian
   card_announcement:
     enable: true
-    content: This is my Blog
+    content: 2021开启新征途，加油！
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
