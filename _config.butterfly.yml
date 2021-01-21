@@ -107,7 +107,7 @@ index_img: /MyUseFile/img/index.webp
 default_top_img:
 
 # The banner image of archive page
-archive_img:
+archive_img: https://res.cloudinary.com/dt3vcmqdt/image/upload/v1611226071/MyImg/tags.png
 
 # If the banner of tag page not setting, it will show the top_img
 # note: tag page, not tags page (子標籤頁面的 top_img)
