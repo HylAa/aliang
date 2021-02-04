@@ -3,6 +3,8 @@ author: Aliang
 tags: []
 categories: [小程序]
 date: 2021-01-28 17:00:00
+top_img: https://img-cdn-qiniu.dcloud.net.cn/uploads/article/20190621/493f8fa07dbee698c25da8e4e972215e.png
+cover: https://img-cdn-qiniu.dcloud.net.cn/uploads/article/20190621/493f8fa07dbee698c25da8e4e972215e.png
 ---
 
 
@@ -45,12 +47,12 @@ setData的变量是props里定义的
 在命令行里，运行【 npm install miniprogram-to-uniapp -g 】进行安装，因为这个包是工具，要求全局都能使用，所以需要-g进行全局安装。
 如果运行npm报错，请先安装Node.js，下载地址：https://nodejs.org/zh-cn/
  
-![](https://img-cdn-qiniu.dcloud.net.cn/uploads/article/20200320/4dcf507e8c53a4105dc61ac183ea5477.png)
+![](https://res.cloudinary.com/dt3vcmqdt/image/upload/v1612410294/%E5%B0%8F%E7%A8%8B%E5%BA%8F/1_jvieea.png)
 
 ##### 第二步
 继续在命令行里，运行【 wtu -V 】，执行结果如下：
 
-![](https://img-cdn-qiniu.dcloud.net.cn/uploads/article/20200320/d7925eed50a931b4b83a69b792e38597.png)
+![](https://res.cloudinary.com/dt3vcmqdt/image/upload/v1612410295/%E5%B0%8F%E7%A8%8B%E5%BA%8F/2_imxt7p.png)
  
 
 显示版本号，说明已经安装成功了。（wtu -> 取自wx to uni之意，后面都用这个全局命令）
@@ -64,18 +66,18 @@ setData的变量是props里定义的
 
 转换前：
 
-![](https://img-cdn-qiniu.dcloud.net.cn/uploads/article/20200320/0c34baf388006a06d76f5ebf6c9ebcaa.png)
+![](https://res.cloudinary.com/dt3vcmqdt/image/upload/v1612410297/%E5%B0%8F%E7%A8%8B%E5%BA%8F/3_rrzqx9.png)
  
 
 转换后：
 
-![](https://img-cdn-qiniu.dcloud.net.cn/uploads/article/20200320/d0ae42911118adbc6aaeef472d598fed.png)
+![](https://res.cloudinary.com/dt3vcmqdt/image/upload/v1612410299/%E5%B0%8F%E7%A8%8B%E5%BA%8F/4_l1gfdc.png)
  
 
 转换后的项目文件对比（左边是小程序项目，右边是Uni-app项目目录）：
 
 
-![](https://img-cdn-qiniu.dcloud.net.cn/uploads/article/20190621/493f8fa07dbee698c25da8e4e972215e.png)
+![](https://res.cloudinary.com/dt3vcmqdt/image/upload/v1612410300/%E5%B0%8F%E7%A8%8B%E5%BA%8F/5_bwa9fk.png)
 
 ##### 第四步
 将转换后的xxx_uni项目导入到hbuilder X，
