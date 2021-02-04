@@ -4,6 +4,38 @@
   
     
     <entry>
+      <title>TypeScript - TypeScript基础学习</title>
+      <link href="2021/01/28/TypeScript-TypeScript%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0/"/>
+      <url>2021/01/28/TypeScript-TypeScript%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>WX - 微信原生转化Uni-App</title>
+      <link href="2021/01/28/wxMp-To-Uni/%E5%8E%9F%E7%94%9F%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E8%BD%AC%E5%8C%96UniApp/"/>
+      <url>2021/01/28/wxMp-To-Uni/%E5%8E%9F%E7%94%9F%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E8%BD%AC%E5%8C%96UniApp/</url>
+      
+        <content type="html"><![CDATA[<h4 id="一、它是谁？"><a href="#一、它是谁？" class="headerlink" title="一、它是谁？"></a>一、它是谁？</h4><p>【miniprogram-to-uniapp】转换微信小程序”项目为uni-app项目。<br>原则上混淆过的项目，也可以进转换，因为关键字丢失，不一定会完美。</p><h4 id="二、它的原理是什么？"><a href="#二、它的原理是什么？" class="headerlink" title="二、它的原理是什么？"></a>二、它的原理是什么？</h4><p>最初是学了半节课堆和栈，觉得词法分析挺有意思的，再加入转换小程序插件时，发现这些繁琐的操作完全可以使用程序来完成。<br>核心是使用Babel获取AST（词法分析)，然后或使用Babel自带函数增删，或正则分析替换等等操作。<br>可能有的朋友觉得，这种为啥不是纯正则分析？ 纯正则可以解决一部分问题，对于标签与标签内容，其实正则是很难进行区分的哈。</p><h4 id="三、它能做哪些事情？"><a href="#三、它能做哪些事情？" class="headerlink" title="三、它能做哪些事情？"></a>三、它能做哪些事情？</h4><p>支持无云开发的小程序项目转换为uni-app项目<br>支持有云开发的小程序项目转换为uni-app项目(cloudfunctions目录将被忽略，uni-app结合小程序云开发见：使用uni-app进行微信小程序云开发经验分享)<br>支持解析TypeScript小程序项目<br>支持解析使用npm模块的小程序项目<br>支持解析include标签<br>支持解析template标签<br>支持解析Behavior文件为mixins文件<br>支持.js’, .wxml和*.wxss文件进行相应转换，并做了大量的优化<br>支持识别App、Page、Component、VantComponent、Behavior和纯Javascript文件的转换<br>使用jyf-parser替换wxParse(感谢网友 “爱瑞巴勒康忙北鼻” 的建议)<br>搜索未在data声明，而直接在setData()里使用的变量，并修复<br>合并使用require导入的wxs文件<br>因uni-app会将所有非static目录的资源文件删除，因此将所有资源文件移入static目录，并修复所有能修复到的路径<br>修复变量名与函数重名的情况(目前uni编译时会将非static目录的文件复制一份到static目录，但并不完全，因此本功能仍保留)<br>支持wxs文件转换，可以通过参数配置(-w)，默认为false(目前uni-app已支持wxs，不再推荐转换wxs)<br>支持vue-cli模式，可以通过参数配置(-c)，默认为false，即生成为vue-cli项目，转换完成需运行npm -i安装包，然后再导入hbuilder x里开发(建议爱折腾人士使用)<br>支持vant转换，可以通过参数配置(-z)，默认为false：自动识别（无须添加参数，工具已支持自动识别vant项目），如果需要转换使用vant-weapp组件的小程序项目，必须配置这个参数，否则转换后有问题。（另外，转换后的项目，目前仅支持v3和h5两个平台）<br>支持wx.xxx()转换为uni.xxx()，可以通过参数配置(-r)，默认为false（因uni已经对wx相关函数做了兼容，但仍有很多朋友有此需求，特作为可配置项，按需自取）</p><h4 id="四、它还有哪些不支持转换？"><a href="#四、它还有哪些不支持转换？" class="headerlink" title="四、它还有哪些不支持转换？"></a>四、它还有哪些不支持转换？</h4><p>不支持替换：wxaSortPicker<br>setData的变量是props里定义的<br>抽象节点：componentGenerics<br>语法错误(原始代码就有语法错误，请仔细检查，工具无法帮助你将所有代码都修复)<br>更多请参见miniprogram to uniapp 工具答疑</p><h4 id="五、怎么使用？"><a href="#五、怎么使用？" class="headerlink" title="五、怎么使用？"></a>五、怎么使用？</h4><h5 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h5><p>在命令行里，运行【 npm install miniprogram-to-uniapp -g 】进行安装，因为这个包是工具，要求全局都能使用，所以需要-g进行全局安装。<br>如果运行npm报错，请先安装Node.js，下载地址：<a href="https://nodejs.org/zh-cn/">https://nodejs.org/zh-cn/</a></p><p><img src="https://img-cdn-qiniu.dcloud.net.cn/uploads/article/20200320/4dcf507e8c53a4105dc61ac183ea5477.png" alt=""></p><h5 id="第二步"><a href="#第二步" class="headerlink" title="第二步"></a>第二步</h5><p>继续在命令行里，运行【 wtu -V 】，执行结果如下：</p><p><img src="https://img-cdn-qiniu.dcloud.net.cn/uploads/article/20200320/d7925eed50a931b4b83a69b792e38597.png" alt=""></p><p>显示版本号，说明已经安装成功了。（wtu -&gt; 取自wx to uni之意，后面都用这个全局命令）</p><h5 id="第三步"><a href="#第三步" class="headerlink" title="第三步"></a>第三步</h5><p>在命令行里，输入【wtu -i “你的小程序项目路径”】<br>注意 -i 前面和后面都有空格！！！<br>注意 -i 前面和后面都有空格！！！<br>注意 -i 前面和后面都有空格！！！<br>如：【wtu -i “E:\zpWork\Project_self\miniprogram-to-uniapp\test\test-wx-to-uni”】 ，回车后即可以在源项目同及目录得到一个后缀为_uni的目录，即转换成功。</p><p>转换前：</p><p><img src="https://img-cdn-qiniu.dcloud.net.cn/uploads/article/20200320/0c34baf388006a06d76f5ebf6c9ebcaa.png" alt=""></p><p>转换后：</p><p><img src="https://img-cdn-qiniu.dcloud.net.cn/uploads/article/20200320/d0ae42911118adbc6aaeef472d598fed.png" alt=""></p><p>转换后的项目文件对比（左边是小程序项目，右边是Uni-app项目目录）：</p><p><img src="https://img-cdn-qiniu.dcloud.net.cn/uploads/article/20190621/493f8fa07dbee698c25da8e4e972215e.png" alt=""></p><h5 id="第四步"><a href="#第四步" class="headerlink" title="第四步"></a>第四步</h5><p>将转换后的xxx_uni项目导入到hbuilder X，<br>点击菜单 运行—&gt; 运行到小程序模拟器—&gt;微信开发者工具！（如果是使用了vant的项目，请运行到H5，vant项目转换后仅支持H5和app）<br>点击菜单 运行—&gt; 运行到小程序模拟器—&gt;微信开发者工具！（如果是使用了vant的项目，请运行到H5，vant项目转换后仅支持H5和app）<br>点击菜单 运行—&gt; 运行到小程序模拟器—&gt;微信开发者工具！（如果是使用了vant的项目，请运行到H5，vant项目转换后仅支持H5和app）<br>重要的话说三遍！<br>然后查看转换后的项目运行到小程序，是否可以正常运行无报错！<br>(因为这种转换非100%，所以至少需要保证 小程序—&gt;uniapp—&gt;小程序仍然能正常运行，再考虑运行到其他小程序或app)，<br>如有报错，请根据miniprogram to uniapp 工具答疑 进行修改，保证无报错，然后再运行到其他平台。</p><p>工具升级#<br>因为工具更新比较频繁，安装后，可以使用如下命令进行升级：<br>npm update miniprogram-to-uniapp -g</p><p>原文链接：<a href="https://ask.dcloud.net.cn/article/36037">https://ask.dcloud.net.cn/article/36037</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 小程序 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Linux - Linux命令行 光标移动技巧等</title>
       <link href="2021/01/22/Linux/keymap/"/>
       <url>2021/01/22/Linux/keymap/</url>
