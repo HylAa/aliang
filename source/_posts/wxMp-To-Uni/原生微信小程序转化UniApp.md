@@ -3,8 +3,8 @@ author: Aliang
 tags: []
 categories: [小程序]
 date: 2021-01-28 17:00:00
-top_img: https://img-cdn-qiniu.dcloud.net.cn/uploads/article/20190621/493f8fa07dbee698c25da8e4e972215e.png
-cover: https://img-cdn-qiniu.dcloud.net.cn/uploads/article/20190621/493f8fa07dbee698c25da8e4e972215e.png
+top_img: https://res.cloudinary.com/dt3vcmqdt/image/upload/v1612410300/%E5%B0%8F%E7%A8%8B%E5%BA%8F/5_bwa9fk.png
+cover: https://res.cloudinary.com/dt3vcmqdt/image/upload/v1612410300/%E5%B0%8F%E7%A8%8B%E5%BA%8F/5_bwa9fk.png
 ---
 
 
