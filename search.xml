@@ -4,19 +4,6 @@
   
     
     <entry>
-      <title>TypeScript - TypeScript基础学习</title>
-      <link href="2021/01/28/TypeScript-TypeScript%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0/"/>
-      <url>2021/01/28/TypeScript-TypeScript%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>WX - 微信原生转化Uni-App</title>
       <link href="2021/01/28/wxMp-To-Uni/%E5%8E%9F%E7%94%9F%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E8%BD%AC%E5%8C%96UniApp/"/>
       <url>2021/01/28/wxMp-To-Uni/%E5%8E%9F%E7%94%9F%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E8%BD%AC%E5%8C%96UniApp/</url>
@@ -55,6 +42,25 @@
     
     
     <entry>
+      <title>MinIO - MinIO上传文件错误解决办法（Linux）</title>
+      <link href="2021/01/22/Linux/minioErr/"/>
+      <url>2021/01/22/Linux/minioErr/</url>
+      
+        <content type="html"><![CDATA[<h1 id="minio上传下载文件失败："><a href="#minio上传下载文件失败：" class="headerlink" title="minio上传下载文件失败："></a>minio上传下载文件失败：</h1><p>错误消息：</p><figure class="highlight rust"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">The difference between the request time and the server<span class="symbol">&#x27;s</span> time is too large.</span><br></pre></td></tr></table></figure><p>原因：linux服务器时区的问题。</p><h1 id="解决方案："><a href="#解决方案：" class="headerlink" title="解决方案："></a>解决方案：</h1><p>一、查看系统时间、硬件时间</p><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">1.</span><span class="meta"># date <span class="comment">// 查看系统时间</span></span></span><br><span class="line"><span class="number">2.</span><span class="meta"># hwclock <span class="comment">// 查看硬件时间</span></span></span><br></pre></td></tr></table></figure><p>二、时间服务器上的时间同步的方法<br> 安装ntpdate工具</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">1.<span class="comment"># yum -y install ntp ntpdate</span></span><br></pre></td></tr></table></figure><p>设置系统时间与网络时间同步</p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">2.# <span class="selector-tag">ntpdate</span> <span class="selector-tag">cn</span><span class="selector-class">.pool</span><span class="selector-class">.ntp</span><span class="selector-class">.org</span></span><br></pre></td></tr></table></figure><p>将系统时间写入硬件时间</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">3.<span class="comment"># hwclock --systohc</span></span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Git - Git个人学习记录手册</title>
       <link href="2021/01/21/Git/gitlearn/"/>
       <url>2021/01/21/Git/gitlearn/</url>
@@ -78,7 +84,7 @@
       <link href="2021/01/15/GrowingUp/%E6%88%90%E9%95%BF/"/>
       <url>2021/01/15/GrowingUp/%E6%88%90%E9%95%BF/</url>
       
-        <content type="html"><![CDATA[<p>”感情开始时本就是你骗他、他骗你、自己骗自己的游戏。当局者是很难自我分化，无法判断自己喜欢他时他是否也喜欢自己，会不自觉给自己加戏。没恋爱经验的人很难识别对方是否喜欢自己，更别说看到真实的对方了。　　沉没成本不可追，就别再追加机会成本了。用于怀念过去的时间，你失去做其他更有意义之事的机会，这就是机会成本。　　另外，你们是否相互承认恋人关系。别看“男朋友”“女朋友”这种小小的称谓，有不少人当初在一起时都没认同过这种身份，更别说公开关系。这么久过去了，你还在怀念一个都无法称为“前任”的人？你这是在干嘛？？说出去不怕被人笑掉大牙？？？</p>]]></content>
+        <content type="html"><![CDATA[<!-- ”感情开始时本就是你骗他、他骗你、自己骗自己的游戏。当局者是很难自我分化，无法判断自己喜欢他时他是否也喜欢自己，会不自觉给自己加戏。没恋爱经验的人很难识别对方是否喜欢自己，更别说看到真实的对方了。　　沉没成本不可追，就别再追加机会成本了。用于怀念过去的时间，你失去做其他更有意义之事的机会，这就是机会成本。　　另外，你们是否相互承认恋人关系。别看“男朋友”“女朋友”这种小小的称谓，有不少人当初在一起时都没认同过这种身份，更别说公开关系。这么久过去了，你还在怀念一个都无法称为“前任”的人？你这是在干嘛？？说出去不怕被人笑掉大牙？？？ -->]]></content>
       
       
       
