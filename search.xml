@@ -137,6 +137,25 @@
     
     
     <entry>
+      <title>Github Copilot 的使用方法和快捷键</title>
+      <link href="2021/01/15/Vscode/Github-copilots/"/>
+      <url>2021/01/15/Vscode/Github-copilots/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Copilot-是什么"><a href="#Copilot-是什么" class="headerlink" title="Copilot 是什么"></a>Copilot 是什么</h2><p>Copilot (<a href="https://copilot.github.com/">https://copilot.github.com/</a>) 是由 Github 提供的AI编码辅助工具，它可以在编码过程中提供基于 AI 学习的编码建议。在很多情况下，只需要有注释或者函数名称，Copilot就可以实例完整的代码。</p><p>目前 Copilot 还没有全量开放，需要申请开通权限。访问它的官方网站<a href="https://copilot.github.com/">https://copilot.github.com/</a>，点击“Sign up“按钮即可申请开通。当获得开通权限后，就可以在 Github 上使用 Copilot。</p><p><img src="https://res.cloudinary.com/dt3vcmqdt/image/upload/v1649145740/WX20220405-160150_hkvi4q.png" alt="官网截图"></p><h2 id="安装插件"><a href="#安装插件" class="headerlink" title="安装插件"></a>安装插件</h2><p>使用 Copilot 时，需要安装一个插件，在 VSCode 的插件菜单中搜索 <code>Copilot</code>，即可找到插件，名字为 <code>Github Copilot</code>，对应的插件市场的地址为<a href="https://marketplace.visualstudio.com/items?itemName=GitHub.copilot">https://marketplace.visualstudio.com/items?itemName=GitHub.copilot</a>，安装即可。</p><p><img src="https://res.cloudinary.com/dt3vcmqdt/image/upload/v1649146016/2051649145951_.pic_q03uk2.png" alt="安装截图"></p><p>安装后插件会提示要求登录 Github ，按提示登录即可。</p><p><img src="https://res.cloudinary.com/dt3vcmqdt/image/upload/v1649146070/03.login_qn7mvg.png" alt="登录截图"></p><h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><p>正常使用时，当 Copilot 给出建议时，会在光标位置的后方出现建议的代码，并灰色字显示。如果不希望使用提示，则继续输入代码即可，如果希望使用提示的代码，按下 Tab 键即可。</p><p><img src="https://res.cloudinary.com/dt3vcmqdt/image/upload/v1649146200/04.completion_ctsnl0.png" alt="使用截图"></p><p>在 VSCode 中，Copilot 有一个图标，需要确认状态是打开的。当它的样子与其它图标类似，没有背景颜色时，表示是开启的，此时当你编辑代码文件的时候，Copilot会自动提示代码建议。当它有背景颜色（红色、深黄色等）时，表示是关闭的。如果要切换状态只要点击它，然后选择全局（Globally）即可。</p><p><img src="https://res.cloudinary.com/dt3vcmqdt/image/upload/v1649146129/05.icon_zyh6um.png" alt="状态图标"></p><h2 id="快捷键"><a href="#快捷键" class="headerlink" title="快捷键"></a>快捷键</h2><p>Copilot 也提供了一些快捷键，可以很方便地使用。</p><ul><li>接受建议：<code>Tab</code></li><li>拒绝建议：<code>Esc</code></li><li>打开Copilot：<code>Ctrl + Enter</code> （会打开一个单独的面板，展示10个建议）</li><li>下一条建议：<code>Alt/Option + ]</code></li><li>上一条建议：<code>Alt/Option + [</code></li><li>触发行内Copilot：<code>Alt/Option + \</code> （Coplit还没有给出建议或者建议被拒绝了，希望手工触发它提供建议）<br>-<br><img src="https://res.cloudinary.com/dt3vcmqdt/image/upload/v1649146130/06.shortcut_afyn4j.jpg" alt="状态图标"></li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Vscode </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Vue - VueX 学习手记</title>
       <link href="2021/01/15/Vue/VueX/"/>
       <url>2021/01/15/Vue/VueX/</url>
