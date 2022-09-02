@@ -11,35 +11,27 @@ cover: https://res.cloudinary.com/dt3vcmqdt/image/upload/v1609389860/wallhaven-w
 
 # 背景
 记录自己在项目中总结的mybatis操作和用法
-
 ### `mybatis` 操作(批量插入,批量修改,批量删除,分页查询)
 - 环境描述 Java\Mysql\Mybatis
-  
-1.批量插入
+
+1. 批量插入
+
 mapper 类方法
 ```java
 int insertBatch(List<ShoppingCartBean> goodsList);
 ```
 XML 配置
-
 ```xml
 <insert id="insertBatch" parameterType="java.util.List">
-
    insert into th_shopping_Cart 
-
     (itemCode, userId, number)
-
    values
-
    <foreach collection="list" item="item" index="index" separator=",">
-
     (#{item.itemCode},#{item.userId},#{item.number})
-
    </foreach>
-
 </insert>
 ```
-1. 分页查询
+2. 分页查询
 页面请求参数
 - 页面显示条数 size
 - 第page页面
@@ -57,8 +49,7 @@ List<ShoppingCartBean> selectByUserId(String userId, Integer start, Integer size
 // 查询所有记录数量
 int selectCount(String userId);
 ```
-
-  xml配置 
+xml配置 
   ```xml
   <select id="selectByUserId" resultMap="BaseResultMap">
     select 
@@ -74,7 +65,7 @@ int selectCount(String userId);
      WHERE userId=#{0} 
   </select>
   ```
-3.mybatis 批量修改
+3. mybatis 批量修改
 url配置
 在mysql数据库连接上增加 &allowMultiQueries=true
 
@@ -99,7 +90,7 @@ XML配置逻辑
     </foreach>
   </update>
   ```
-4.批量删除
+4. 批量删除
 XML配置
 ```xml
 <delete id="deleteBatch" parameterType="com.morning.star.tohome.store.entity.ShoppingItems">
