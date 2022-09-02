@@ -5,8 +5,8 @@ tags:
 categories: []
 date: 2021-01-22 15:15:00
 updated: 2021-01-22 15:15:00
-top_img: https://res.cloudinary.com/dt3vcmqdt/image/upload/v1609389860/wallhaven-wyv566_1920x1080_uc4oad.png
-cover: https://res.cloudinary.com/dt3vcmqdt/image/upload/v1609389860/wallhaven-wyv566_1920x1080_uc4oad.png
+top_img: https://mybatis.org/images/mybatis-logo.png
+cover: https://mybatis.org/images/mybatis-logo.png
 ---
 
 # 背景
