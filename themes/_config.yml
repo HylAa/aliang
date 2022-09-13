@@ -259,7 +259,7 @@ addtoany:
 
 comments:
   # Up to two comments system, the first will be shown as default
-  # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus
+  # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus/Remark42/Artalk
   use: # Valine,Disqus
   text: true # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
@@ -333,7 +333,7 @@ facebook_comments:
   user_id: # optional
   pageSize: 10 # The number of comments to show
   order_by: social # social/time/reverse_time
-  lang: en_US # Language en_US/zh_CN/zh_TW and so on
+  lang: zh_TW # Language en_US/zh_CN/zh_TW and so on
 
 # Twikoo
 # https://github.com/imaegoo/twikoo
@@ -352,6 +352,21 @@ giscus:
   theme:
     light: light
     dark: dark
+  option:
+
+# Remark42
+# https://remark42.com/docs/configuration/frontend/
+remark42:
+  host: # Your Host URL
+  siteId: # Your Site ID
+  option:
+
+# Artalk
+# https://artalk.js.org/guide/frontend/config.html
+artalk:
+  server:
+  site:
+  visitor: false
   option:
 
 # Chat Services
@@ -393,6 +408,13 @@ gitter:
 crisp:
   enable: false
   website_id:
+
+# messenger
+# https://developers.facebook.com/docs/messenger-platform/discovery/facebook-chat-plugin/
+messenger:
+  enable: false
+  pageID:
+  lang: zh_TW # Language en_US/zh_CN/zh_TW and so on
 
 # Footer Settings
 # --------------------------------------
@@ -597,6 +619,10 @@ subtitle:
   enable: false
   # Typewriter Effect (打字效果)
   effect: true
+  # Effect Speed Options (打字效果速度參數)
+  startDelay: 300 # time before typing starts in milliseconds
+  typeSpeed: 150 # type speed in milliseconds
+  backSpeed: 50 # backspacing speed in milliseconds
   # loop (循環打字)
   loop: true
   # source 調用第三方服務
@@ -621,7 +647,10 @@ aside:
   button: true
   mobile: true # display on mobile
   position: right # left or right
-  archives: true
+  display:
+    archive: true
+    tag: true
+    category: true
   card_author:
     enable: true
     description:
@@ -836,13 +865,22 @@ inject:
 # 非必要請不要修改
 CDN:
   # The CDN provider of internal scripts (主題內部 js 的 cdn 配置)
-  # option: local/jsdelivr
-  # Dev version cannot choose jsdelivr (dev版的主題不能設置為 jsdelivr)
+  # option: local/jsdelivr/unpkg/cdnjs/custom
+  # Dev version can only choose. ( dev版的主題只能設置為 local )
   internal_provider: local
+
   # The CDN provider of third party scripts (第三方 js 的 cdn 配置)
-  # option: local/jsdelivr
+  # option: local/jsdelivr/unpkg/cdnjs/custom
   # when set it to local, you need to install hexo-butterfly-extjs
   third_party_provider: jsdelivr
+
+  # Add version number to CDN, true or false  
+  version: false
+
+  # Custom format
+  # For example: https://cdn.staticfile.org/${cdnjs_name}/${version}/${min_cdnjs_file}
+  custom_format:
+
   option:
     # main_css:
     # main:
@@ -867,7 +905,6 @@ CDN:
     # mathjax:
     # katex:
     # katex_copytex:
-    # katex_copytex_css:
     # mermaid:
     # canvas_ribbon:
     # canvas_fluttering_ribbon:
@@ -894,3 +931,5 @@ CDN:
     # prismjs_js:
     # prismjs_lineNumber_js:
     # prismjs_autoloader:
+    # artalk_js:
+    # artalk_css:
