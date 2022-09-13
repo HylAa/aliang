@@ -71,18 +71,16 @@ CREATE EXTENSION postgis_topology;
 
 ### 升级
 
-升级到最新版本：
+升级到最新版本
 
-```
+```postgresql
 ALTER EXTENSION postgis UPDATE;
 ALTER EXTENSION postgis_topology UPDATE;
 ```
 
+或指定版本升级
 
-
-或指定版本升级：
-
-```
+```postgresql
 ALTER EXTENSION postgis
  UPDATE TO "3.1.0";
 -- Upgrade Topology
@@ -90,7 +88,11 @@ ALTER EXTENSION postgis_topology
  UPDATE TO "3.1.0";
 ```
 
+
+
 ---
+
+
 
 
 
@@ -114,17 +116,25 @@ CREATE TABLE mytable (
 
 然后添加空间索引
 
+
+
 ```postgresql
 CREATE INDEX mytable_gix
-  ON mytable
-  USING GIST (geom);
+ON mytable
+USING GIST (geom);
 ```
+
+
 
 ---
 
 
 
+
+
 插入测试数据
+
+
 
 ```postgresql
 INSERT INTO mytable (geom) VALUES (
@@ -150,5 +160,9 @@ WHERE ST_DWithin(
 );
 ```
 
+
+
 ---
+
+
 
