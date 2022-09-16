@@ -1,3 +1,23 @@
+- class_name: 全栈开发学习网站[收藏]
+  class_desc: 每天进步一点点
+  link_list:
+    - name: monkey1024(程序猿1024)
+      link: http://www.monkey1024.com/
+      avatar: http://www.monkey1024.com/wp-content/uploads/2020/11/cropped-monkey1024-副本-32x32.png
+      descr: 全栈开发
+    - name: 遇见狂神说(不错的老师)
+      link: https://www.kuangstudy.com/
+      avatar: https://www.kuangstudy.com/assert/images/indexlogo.png
+      descr: 须知少年凌云志，曾许人间第一流
+
+- class_name: 后端(架构)
+  class_desc: Java后端架构，大数据，云原生，IT互联网领域最新资讯
+  link_list:
+    - name: java后端架构猛猛
+      link: https://blog.csdn.net/m0_67645544?type=blog
+      avatar: http://www.monkey1024.com/wp-content/uploads/2020/11/cropped-monkey1024-副本-32x32.png
+      descr: 后端开发
+
 - class_name: 友情链接
   class_desc: 那些人，那些事
   link_list:
