@@ -3,7 +3,7 @@
   link_list:
     - name: monkey1024(程序猿1024)
       link: http://www.monkey1024.com/
-      avatar: http://www.monkey1024.com/wp-content/uploads/2020/11/cropped-monkey1024-副本-32x32.png
+      avatar: https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fgss0.baidu.com%2F-4o3dSag_xI4khGko9WTAnF6hhy%2Fzhidao%2Fpic%2Fitem%2F14ce36d3d539b60076953256ee50352ac75cb7f3.jpg&refer=http%3A%2F%2Fgss0.baidu.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1665931293&t=38b101215f91fb77900b5cc65a2891c2
       descr: 全栈开发
     - name: 遇见狂神说(不错的老师)
       link: https://www.kuangstudy.com/
@@ -15,7 +15,7 @@
   link_list:
     - name: java后端架构猛猛
       link: https://blog.csdn.net/m0_67645544?type=blog
-      avatar: http://www.monkey1024.com/wp-content/uploads/2020/11/cropped-monkey1024-副本-32x32.png
+      avatar: https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fgss0.baidu.com%2F-4o3dSag_xI4khGko9WTAnF6hhy%2Fzhidao%2Fpic%2Fitem%2F14ce36d3d539b60076953256ee50352ac75cb7f3.jpg&refer=http%3A%2F%2Fgss0.baidu.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1665931293&t=38b101215f91fb77900b5cc65a2891c2
       descr: 后端开发
 
 - class_name: 友情链接
