@@ -5,8 +5,8 @@ tags:
 categories: []
 date: 2022-09-19 10:15:00
 updated: 2022-09-19 10:15:00
-top_img: https://www.jspoo.com/wp-content/uploads/2022/09/20220917212435134001.jpg
-cover: https://www.jspoo.com/wp-content/uploads/2022/09/20220917212435134001.jpg
+top_img: https://res.cloudinary.com/dt3vcmqdt/image/upload/v1663555372/20220917212435134001_wkvs8u.jpg
+cover: https://res.cloudinary.com/dt3vcmqdt/image/upload/v1663555372/20220917212435134001_wkvs8u.jpg
 ---
 
 `你还在担心羊了个羊第二关怎么过吗？这么难，通关不了？不要担心，接下来铺主就教大家用无限刷羊了个羊皮肤和通关的教程，目前只支持安卓手机，不需要root，如果苹果用户越狱能找到目录文件，也是可以按照步骤来的！`
@@ -23,12 +23,12 @@ cover: https://www.jspoo.com/wp-content/uploads/2022/09/20220917212435134001.jpg
 
 5. 跳转目录后，点击右上角的三个点，选择搜索，再点击高级搜索，在（文件中包含内容）下面输入`90019`，其中19代表现在的日期，今天是9月19号，那么就是`90019`，同样的道理，如果是20号，就搜索`90020`
 
-   ![mt管理器](https://www.jspoo.com/wp-content/uploads/2022/09/20220919081203083003.jpg)
+   ![mt管理器](https://res.cloudinary.com/dt3vcmqdt/image/upload/v1663555372/20220919081203083003_xzwguo.jpg)
 
 6. 点击确定，一般会找到两到三个文件（记得点击左下角的放大图标，方便搜索结果的修改。如果没有找到文件，建议去游戏里玩一下，可能文件没生成！）第一个不用管，如果只搜到两个，那么就修改第二个，如果搜到了三个，那么第二个和第三个都要修改。点击文件后，进入编辑界面，还是点击右上角的三个点，选择搜索，选择替换，把90017换成80001，如果是18号就把90018替换成80001，替换完成后点击保存（如果不会替换的话，直接找到对应的代码修改保存就好，很好找的！）。不过铺主在搜索的时候，只找到一个文件，修改那一个文件也就可以。
 
-   ![](https://www.jspoo.com/wp-content/uploads/2022/09/20220919081203129002.jpg)
+   ![](https://res.cloudinary.com/dt3vcmqdt/image/upload/v1663555372/20220919081203129002_x3honp.jpg)
 
-![](https://www.jspoo.com/wp-content/uploads/2022/09/20220917205922066012.jpg)
+![](https://res.cloudinary.com/dt3vcmqdt/image/upload/v1663555372/20220917205922066012_cfnocm.jpg)
 
 **aliang测试下来，新皮肤是可以一直刷出来的，通关次数好像只有几次。具体你们可以自己试试看。刷的差不多，要变回正常的话，需要回到管理器把之前那个目录文件的代码改回来即可。**
