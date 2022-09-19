@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>娱乐 - 羊了个羊无限刷皮肤和通关教程，支持免root的安卓手机！</title>
+      <link href="2022/09/19/Game/ylgy/"/>
+      <url>2022/09/19/Game/ylgy/</url>
+      
+        <content type="html"><![CDATA[<p><code>你还在担心羊了个羊第二关怎么过吗？这么难，通关不了？不要担心，接下来铺主就教大家用无限刷羊了个羊皮肤和通关的教程，目前只支持安卓手机，不需要root，如果苹果用户越狱能找到目录文件，也是可以按照步骤来的！</code></p><h4 id="截止2022-9-19亲测依然有效！"><a href="#截止2022-9-19亲测依然有效！" class="headerlink" title="截止2022.9.19亲测依然有效！"></a>截止2022.9.19亲测依然有效！</h4><ol><li><p>下载mt管理器（如果有就跳过）<a href="https://wwt.lanzouj.com/i6WYT0bv55be">https://wwt.lanzouj.com/i6WYT0bv55be</a></p></li><li><p>打开手机自带的设置面板，点击系统与更新&gt;找到日期和时间&gt;把日期改成九月十五号&gt;然后打开羊了个羊小程序，可以看到无法开始。</p></li><li><p>返回到设置，把日期改成最新的时间，再返回羊了个羊，就会正常了。</p></li><li><p>接着打开mt管理器，点击最上方的路径，输入跳转到这个目录<code>（/storage/emulated/0/Android/data/com.tencent.mm/MicroMsg/wxanewfiles）</code>安卓11以上需要授权，按MT管理器的提示来即可。</p></li><li><p>跳转目录后，点击右上角的三个点，选择搜索，再点击高级搜索，在（文件中包含内容）下面输入<code>90019</code>，其中19代表现在的日期，今天是9月19号，那么就是<code>90019</code>，同样的道理，如果是20号，就搜索<code>90020</code></p><p><img src="https://www.jspoo.com/wp-content/uploads/2022/09/20220919081203083003.jpg" alt="mt管理器"></p></li><li><p>点击确定，一般会找到两到三个文件（记得点击左下角的放大图标，方便搜索结果的修改。如果没有找到文件，建议去游戏里玩一下，可能文件没生成！）第一个不用管，如果只搜到两个，那么就修改第二个，如果搜到了三个，那么第二个和第三个都要修改。点击文件后，进入编辑界面，还是点击右上角的三个点，选择搜索，选择替换，把90017换成80001，如果是18号就把90018替换成80001，替换完成后点击保存（如果不会替换的话，直接找到对应的代码修改保存就好，很好找的！）。不过铺主在搜索的时候，只找到一个文件，修改那一个文件也就可以。</p><p><img src="https://www.jspoo.com/wp-content/uploads/2022/09/20220919081203129002.jpg" alt=""></p></li></ol><p><img src="https://www.jspoo.com/wp-content/uploads/2022/09/20220917205922066012.jpg" alt=""></p><p><strong>aliang测试下来，新皮肤是可以一直刷出来的，通关次数好像只有几次。具体你们可以自己试试看。刷的差不多，要变回正常的话，需要回到管理器把之前那个目录文件的代码改回来即可。</strong></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Aliang </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Js - 逻辑运算符、断路运算符的应用</title>
       <link href="2022/09/13/JsLearn/Js%E9%80%BB%E8%BE%91%E8%BF%90%E7%AE%97%E7%AC%A6%E3%80%81%E6%96%AD%E8%B7%AF%E8%BF%90%E7%AE%97%E7%AC%A6%E7%9A%84%E5%BA%94%E7%94%A8/"/>
       <url>2022/09/13/JsLearn/Js%E9%80%BB%E8%BE%91%E8%BF%90%E7%AE%97%E7%AC%A6%E3%80%81%E6%96%AD%E8%B7%AF%E8%BF%90%E7%AE%97%E7%AC%A6%E7%9A%84%E5%BA%94%E7%94%A8/</url>
@@ -281,25 +300,6 @@
         <tags>
             
             <tag> Vue </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>娱乐 - 羊了个羊无限刷皮肤和通关教程，支持免root的安卓手机！</title>
-      <link href="2021/01/15/Game/ylgy/"/>
-      <url>2021/01/15/Game/ylgy/</url>
-      
-        <content type="html"><![CDATA[<p><code>你还在担心羊了个羊第二关怎么过吗？这么难，通关不了？不要担心，接下来铺主就教大家用无限刷羊了个羊皮肤和通关的教程，目前只支持安卓手机，不需要root，如果苹果用户越狱能找到目录文件，也是可以按照步骤来的！</code></p><h4 id="截止2022-9-19亲测依然有效！"><a href="#截止2022-9-19亲测依然有效！" class="headerlink" title="截止2022.9.19亲测依然有效！"></a>截止2022.9.19亲测依然有效！</h4><ol><li><p>下载mt管理器（如果有就跳过）<a href="https://wwt.lanzouj.com/i6WYT0bv55be">https://wwt.lanzouj.com/i6WYT0bv55be</a></p></li><li><p>打开手机自带的设置面板，点击系统与更新&gt;找到日期和时间&gt;把日期改成九月十五号&gt;然后打开羊了个羊小程序，可以看到无法开始。</p></li><li><p>返回到设置，把日期改成最新的时间，再返回羊了个羊，就会正常了。</p></li><li><p>接着打开mt管理器，点击最上方的路径，输入跳转到这个目录<code>（/storage/emulated/0/Android/data/com.tencent.mm/MicroMsg/wxanewfiles）</code>安卓11以上需要授权，按MT管理器的提示来即可。</p></li><li><p>跳转目录后，点击右上角的三个点，选择搜索，再点击高级搜索，在（文件中包含内容）下面输入<code>90019</code>，其中19代表现在的日期，今天是9月19号，那么就是<code>90019</code>，同样的道理，如果是20号，就搜索<code>90020</code></p><p><img src="https://www.jspoo.com/wp-content/uploads/2022/09/20220919081203083003.jpg" alt="mt管理器"></p></li><li><p>点击确定，一般会找到两到三个文件（记得点击左下角的放大图标，方便搜索结果的修改。如果没有找到文件，建议去游戏里玩一下，可能文件没生成！）第一个不用管，如果只搜到两个，那么就修改第二个，如果搜到了三个，那么第二个和第三个都要修改。点击文件后，进入编辑界面，还是点击右上角的三个点，选择搜索，选择替换，把90017换成80001，如果是18号就把90018替换成80001，替换完成后点击保存（如果不会替换的话，直接找到对应的代码修改保存就好，很好找的！）。不过铺主在搜索的时候，只找到一个文件，修改那一个文件也就可以。</p><p><img src="https://www.jspoo.com/wp-content/uploads/2022/09/20220919081203129002.jpg" alt=""></p></li></ol><p><img src="https://www.jspoo.com/wp-content/uploads/2022/09/20220917205922066012.jpg" alt=""></p><p><strong>aliang测试下来，新皮肤是可以一直刷出来的，通关次数好像只有几次。具体你们可以自己试试看。刷的差不多，要变回正常的话，需要回到管理器把之前那个目录文件的代码改回来即可。</strong></p>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> Aliang </tag>
             
         </tags>
       
