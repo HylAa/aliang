@@ -17,15 +17,15 @@ cover: https://upload.wikimedia.org/wikipedia/commons/0/05/Go_Logo_Blue.svg
 
 
 
-# 1. 简介
+# 简介
 
-## 1.1. 介绍
+## 介绍
 
 - Gin是一个golang的微框架，封装比较优雅，API友好，源码注释比较明确，具有快速灵活，容错方便等特点
 - 对于golang而言，web框架的依赖要远比Python，Java之类的要小。自身的`net/http`足够简单，性能也非常不错
 - 借助框架开发，不仅可以省去很多常用的封装带来的时间，也有助于团队的编码风格和形成规范
 
-## 1.2. 安装
+## 安装
 
 要安装Gin软件包，您需要安装Go并首先设置Go工作区。
 
@@ -41,7 +41,7 @@ cover: https://upload.wikimedia.org/wikipedia/commons/0/05/Go_Logo_Blue.svg
 
 > import "net/http"
 
-## 1.3. hello word
+## hello word
 
 ```go
 package main
@@ -65,9 +65,9 @@ func main() {
 }
 
 ```
-# 2. 路由
+# 路由
 
-## 2.1. 基本路由
+## 基本路由
 
 - gin 框架中采用的路由库是基于httprouter做的
 - 地址为：https://github.com/julienschmidt/httprouter
@@ -93,7 +93,7 @@ func main() {
 }
 ```
 
-## 2.2.Restful风格的API
+## Restful风格的API
 
 - gin支持Restful风格的API
 - 即Representational State Transfer的缩写。直接翻译的意思是"表现层状态转化"，是一种互联网应用程序的API设计理念：URL定位资源，用HTTP描述操作
@@ -106,7 +106,7 @@ func main() {
 
 4.删除 /blog/delXxxx DELETE blog/Xxx
 
-## 2.3.API参数
+## API参数
 
 - 可以通过Context的Param方法来获取API参数
 - localhost:8000/xxx/zhangsan
@@ -137,7 +137,7 @@ func main() {
 
 
 
-## 2.4.URL参数
+## URL参数
 
 - URL参数可以通过DefaultQuery()或Query()方法获取
 - DefaultQuery()若参数不村则，返回默认值，Query()若不存在，返回空串
@@ -165,7 +165,7 @@ func main() {
 }
 ```
 
-## 2.5.表单参数
+## 表单参数
 
 - 表单传输为post请求，http常见的传输格式为四种：
   - application/json
@@ -219,7 +219,7 @@ func main() {
 
 ![img](https://www.topgoer.com/static/gin/1.1/6.png)
 
-## 2.6.上传单个文件
+## 上传单个文件
 
 - multipart/form-data格式用于文件上传
 - gin文件上传与原生的net/http方法类似，不同在于gin把原生的request封装到c.Request中
@@ -269,7 +269,7 @@ func main() {
 
 ![img](https://www.topgoer.com/static/gin/1.1/8.png)
 
-### 2.6.1. 上传特定文件
+### 上传特定文件
 
 有的用户上传文件需要限制上传文件的类型以及上传文件的大小，但是gin框架暂时没有这些函数(也有可能是我没找到)，因此基于原生的函数写法自己写了一个可以限制大小以及文件类型的上传函数
 
@@ -308,7 +308,7 @@ func main() {
 }
 ```
 
-## 2.7.上传多个文件
+## 上传多个文件
 
 ```html
 <!DOCTYPE html>
@@ -369,7 +369,7 @@ func main() {
 
 ![img](https://www.topgoer.com/static/gin/1.1/10.png)
 
-## 2.8.routes group
+## routes group
 
 - routes group是为了管理一些相同的URL
 
@@ -417,16 +417,16 @@ func submit(c *gin.Context) {
 
 ![img](https://www.topgoer.com/static/gin/1.1/11.png)
 
-## 2.9.路由原理
+## 路由原理
 
 - httproter会将所有路由规则构造一颗前缀树
 - 例如有 root and as at cn com
 
 ![img](https://www.topgoer.com/static/gin/1.1/12.png)
 
-## 3.0.路由拆分与注册
+## 路由拆分与注册
 
-###  3.0.1. 基本的路由注册
+###   基本的路由注册
 
 下面最基础的gin路由注册方式，适用于路由条目比较少的简单项目或者项目demo。
 
@@ -454,7 +454,7 @@ func main() {
 }
 ```
 
-### 3.0.2. 路由拆分成单独文件或包
+### 路由拆分成单独文件或包
 
 当项目的规模增大后就不太适合继续在项目的main.go文件中去实现路由注册相关逻辑了，我们会倾向于把路由部分的代码都拆分出来，形成一个单独的文件或包：
 
@@ -557,7 +557,7 @@ func main() {
 }
 ```
 
-### 3.0.3. 路由拆分成多个文件
+###  路由拆分成多个文件
 
 当我们的业务规模继续膨胀，单独的一个routers文件或包已经满足不了我们的需求了，
 
@@ -620,7 +620,7 @@ func main() {
 }
 ```
 
-### 3.0.4. 路由拆分到不同的APP
+### 路由拆分到不同的APP
 
 有时候项目规模实在太大，那么我们就更倾向于把业务拆分的更详细一些，例如把不同的业务代码拆分成不同的APP。
 
