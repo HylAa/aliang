@@ -7,7 +7,6 @@ date: 2022-09-13 09:48:00
 updated: 2022-09-13 09:48:00
 top_img: https://res.cloudinary.com/dt3vcmqdt/image/upload/v1663033792/JS/js/60e827295bbd94184241a2ed_5d5b7df8da745af0c99a7fe0_5d185a3253838e08756ce517_javascript_resize_iigg5q.png
 cover: https://res.cloudinary.com/dt3vcmqdt/image/upload/v1663033792/JS/js/60e827295bbd94184241a2ed_5d5b7df8da745af0c99a7fe0_5d185a3253838e08756ce517_javascript_resize_iigg5q.png
-sticky: 1
 ---
 
 

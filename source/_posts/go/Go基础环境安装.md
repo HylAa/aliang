@@ -3,8 +3,8 @@ title: Go - Go的基础环境安装
 tags:
   - Go
 categories: []
-date: 2021-01-22 15:15:00
-updated: 2021-01-22 15:15:00
+date: 2022-11-27 15:15:00
+updated: 2022-11-27 15:15:00
 top_img: https://upload.wikimedia.org/wikipedia/commons/0/05/Go_Logo_Blue.svg
 cover: https://upload.wikimedia.org/wikipedia/commons/0/05/Go_Logo_Blue.svg
 ---

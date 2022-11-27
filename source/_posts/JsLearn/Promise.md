@@ -7,7 +7,6 @@ date: 2021-01-15 17:15:00
 updated: 2021-01-15 17:15:00
 top_img: https://res.cloudinary.com/dt3vcmqdt/image/upload/v1610698583/%E5%9B%BE%E7%89%874_lmdg1f.png
 cover: https://res.cloudinary.com/dt3vcmqdt/image/upload/v1610698583/%E5%9B%BE%E7%89%874_lmdg1f.png
-sticky: 1
 ---
 
 > 今天记录一篇ES6新知识 Promise 
