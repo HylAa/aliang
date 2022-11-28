@@ -12,8 +12,8 @@ menu:
   标签: /tags/ || fas fa-tags
   分类: /categories/ || fas fa-folder-open
   娱乐 || fa fa-heartbeat:
-    - 音乐 || /music/ || fas fa-music 
-    - 照片 || /instock/ || fas fa-images 
+    - 音乐 || /music/ || fas fa-music
+    - 照片 || /instock/ || fas fa-images
     # - 电影 || /movies/ || fas fa-video
   说说: /TalkAbout/ || fas fa-comment-dots
   友链: /link/ || fas fa-link
@@ -24,9 +24,9 @@ menu:
 #   时间轴: /archives/ || fas fa-archive
 #   标签: /tags/ || fas fa-tags
 #   分类: /categories/ || fas fa-folder-open
-#   # 清单|| fa fa-heartbeat: 
-#   # 音乐: /music/ || fas fa-music 
-#   照片: /instock/ || fas fa-images 
+#   # 清单|| fa fa-heartbeat:
+#   # 音乐: /music/ || fas fa-music
+#   照片: /instock/ || fas fa-images
 #   # 电影: /movies/ || fas fa-video
 #   友链: /link/ || fas fa-link
 #   关于: /about/ || fas fa-heart
@@ -150,7 +150,7 @@ error_img:
 # A simple 404 page
 error_404:
   enable: true
-  subtitle: '页面没有找到'
+  subtitle: "页面没有找到"
   background: https://i.loli.net/2020/05/19/aKOcLiyPl2JQdFD.png
 
 post_meta:
@@ -216,7 +216,7 @@ related_post:
   date_type: created # or created or updated 文章日期顯示創建日或者更新日
 
 # figcaption (圖片描述文字)
-photofigcaption: true 
+photofigcaption: true
 
 # anchor
 # when you scroll in post, the URL will update according to header id.
@@ -523,7 +523,7 @@ canvas_fluttering_ribbon:
 # https://github.com/hustcc/canvas-nest.js
 canvas_nest:
   enable: false
-  color: '0,0,255' #color of lines, default: '0,0,0'; RGB values: (R,G,B).(note: use ',' to separate.)
+  color: "0,0,255" #color of lines, default: '0,0,0'; RGB values: (R,G,B).(note: use ',' to separate.)
   opacity: 0.7 # the opacity of line (0~1), default: 0.5.
   zIndex: -1 # z-index property of the background, default: -1.
   count: 99 # the number of lines, default: 99.
@@ -568,7 +568,7 @@ beautify:
   enable: true
   field: post # site/post
   title-prefix-icon: '\f0c1'
-  title-prefix-icon-color: '#F47466'
+  title-prefix-icon-color: "#F47466"
 
 # Global font settings
 # Don't modify the following settings unless you know how they work (非必要不要修改)
@@ -709,9 +709,9 @@ translate:
   # Time delay
   translateDelay: 0
   # The text of the button when the language is Simplified Chinese
-  msgToTraditionalChinese: '繁'
+  msgToTraditionalChinese: "繁"
   # The text of the button when the language is Traditional Chinese
-  msgToSimplifiedChinese: '简'
+  msgToSimplifiedChinese: "简"
 
 # Read Mode (閲讀模式)
 readmode: true
@@ -775,7 +775,6 @@ artitalk:
     # serverURL: leancloud.alblog.top
     lang: zh
 
-
 # Pjax [Beta]
 # It may contain bugs and unstable, give feedback when you find the bugs.
 # https://github.com/MoOx/pjax
@@ -797,8 +796,8 @@ aplayerInject:
 snackbar:
   enable: false
   position: bottom-left
-  bg_light: '#49b1f5' # The background color of Toast Notification in light mode
-  bg_dark: '#121212' # The background color of Toast Notification in dark mode
+  bg_light: "#49b1f5" # The background color of Toast Notification in light mode
+  bg_dark: "#121212" # The background color of Toast Notification in dark mode
 
 # Baidu Push (百度推送)
 baidu_push: false
