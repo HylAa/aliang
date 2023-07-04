@@ -50,6 +50,81 @@ Copilot 也提供了一些快捷键，可以很方便地使用。
 - 下一条建议：`Alt/Option + ]`
 - 上一条建议：`Alt/Option + [`
 - 触发行内Copilot：`Alt/Option + \` （Coplit还没有给出建议或者建议被拒绝了，希望手工触发它提供建议）
--
+  
+
 ![状态图标](https://res.cloudinary.com/dt3vcmqdt/image/upload/v1649146130/06.shortcut_afyn4j.jpg)
 
+
+## JetBrains IDE
+#### macOS 的键盘快捷键
+
+| 行动 | 捷径 |
+|------|------|
+| 接受内联建议 | Tab |
+| 拒绝内联建议 | Esc |
+| 显示下一个内联建议 | Option (⌥) or Alt+] |
+| 显示上一个内联建议 | Option (⌥) or Alt+[ |
+| 触发内联建议 | Option (⌥)+\ |
+| 打开 GitHub Copilot（其他建议在单独的窗格中） | Option (⌥) or Alt+Return |
+
+#### 适用于 Windows 的键盘快捷键
+
+| 行动 | 捷径 |
+|------|------|
+| 接受内联建议 | Tab |
+| 拒绝内联建议 | Esc |
+| 显示下一个内联建议 | Alt+] |
+| 显示上一个内联建议 | Alt+[ |
+| 触发内联建议 | Alt+\ |
+| 打开 GitHub Copilot（其他建议在单独的窗格中） | Alt+Enter |
+
+#### Linux 的键盘快捷键
+
+| 行动 | 捷径 |
+|------|------|
+| 接受内联建议 | Tab |
+| 拒绝内联建议 | Esc |
+| 显示下一个内联建议 | Alt+] |
+| 显示上一个内联建议 | Alt+[ |
+| 触发内联建议 | Alt+\ |
+| 打开 GitHub Copilot（其他建议在单独的窗格中） | Alt+Enter |
+
+
+
+## Visual Studio Code IDE
+
+### macOS 的键盘快捷键
+
+| 行动 | 捷径 | 命令名称 |
+|------|-----|----------|
+| 接受内联建议 | Tab | 编辑器.action.inlineSuggest.commit |
+| 拒绝内联建议 | Esc | editor.action.inlineSuggest.hide |
+| 显示下一个内联建议 | Option (⌥)+] | editor.action.inlineSuggest.showNext |
+| 显示上一个内联建议 | Option (⌥)+[ | editor.action.inlineSuggest.showPrevious |
+| 触发内联建议 | Option (⌥)+\ | 编辑器.action.inlineSuggest.trigger |
+| 打开 GitHub Copilot（其他建议在单独的窗格中） | Ctrl+Return | github.copilot.generate |
+| 打开/关闭 GitHub Copilot | 没有默认快捷方式 | github.copilot.toggleCopilot |
+
+### 适用于 Windows 的键盘快捷键
+
+| 行动 | 捷径 | 命令名称 |
+|------|-----|----------|
+| 接受内联建议 | Tab | 编辑器.action.inlineSuggest.commit |
+| 拒绝内联建议 | Esc | editor.action.inlineSuggest.hide |
+| 显示下一个内联建议 | Alt+] | editor.action.inlineSuggest.showNext |
+| 显示上一个内联建议 | Alt+[ | editor.action.inlineSuggest.showPrevious |
+| 触发内联建议 | Alt+\ | 编辑器.action.inlineSuggest.trigger |
+| 打开 GitHub Copilot（其他建议在单独的窗格中） | Ctrl+Enter | github.copilot.generate |
+| 打开/关闭 GitHub Copilot | 没有默认快捷方式 | github.copilot.toggleCopilot |
+
+### Linux 的键盘快捷键
+
+| 行动 | 捷径 | 命令名称 |
+|------|-----|----------|
+| 接受内联建议 | Tab | 编辑器.action.inlineSuggest.commit |
+| 拒绝内联建议 | Esc | editor.action.inlineSuggest.hide |
+| 显示下一个内联建议 | Alt+] | editor.action.inlineSuggest.showNext |
+| 显示上一个内联建议 | Alt+[ | editor.action.inlineSuggest.showPrevious |
+| 触发内联建议 | Alt+\ | 编辑器.action.inlineSuggest.trigger |
+| 打开 GitHub Copilot（其他建议在单独的窗格中） | Ctrl+Enter | github.copilot.generate |
+| 打开/关闭 GitHub Copilot | 没有默认快捷方式 | github.copilot.toggleCopilot |
