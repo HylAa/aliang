@@ -10,7 +10,6 @@ top_img: https://mybatis.org/images/mybatis-logo.png
 cover: https://mybatis.org/images/mybatis-logo.png
 ---
 
-@[toc]
 ## 概要
 
 >根据后台维护的SQL执行查询，前端同事调用一个通用接口进行执行，最终反回结果给到前端，参考了市场BI工具，自己通过SpringBoot+Mybatis 手动实现了一个，比较粗糙，大家有更好的建议可以提出到评论区！
@@ -609,10 +608,9 @@ public class QueryService {
 ```
 
 ### 效果图
-![调用接口](https://img-blog.csdnimg.cn/160706e9d08c4875b3a1cc05df600344.png)
-
-![界面配置](https://img-blog.csdnimg.cn/3aa197ed11654a478fe138adb9ab4366.png)
-![界面配置](https://img-blog.csdnimg.cn/a43d3a36fa894b2c9b0dbf65794ba1fb.png)
+![调用接口](https://res.cloudinary.com/dt3vcmqdt/image/upload/v1688444359/Java/160706e9d08c4875b3a1cc05df600344_ynsgeb.png)
+![界面配置](https://res.cloudinary.com/dt3vcmqdt/image/upload/v1688444358/Java/3aa197ed11654a478fe138adb9ab4366_cyfwe8.png)
+![界面配置](https://res.cloudinary.com/dt3vcmqdt/image/upload/v1688444360/Java/a43d3a36fa894b2c9b0dbf65794ba1fb_qbwovo.png)
 
 ## 小结
 ` 提示：此方式是否存在问题目前还没验证，简单实现，大家有更好的办法或者解决方案欢迎留言评论！`
