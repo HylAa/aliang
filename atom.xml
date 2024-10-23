@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <description>feedId:71925257418896384+userId:59893085141689344</description>
+  <follow_challenge>
+    <feedId>71925257418896384</feedId>
+    <userId>59893085141689344</userId>
+</follow_challenge>
   <title>阿良的博客</title>
   
   
@@ -280,29 +283,6 @@
   </entry>
   
   <entry>
-    <title>Mybatis - 多表关联查询分页问题</title>
-    <link href="http://www.alblog.top/2021/01/22/Java/Mybatis%E5%A4%9A%E8%A1%A8%E5%85%B3%E8%81%94%E6%9F%A5%E8%AF%A2%E5%88%86%E9%A1%B5%E9%97%AE%E9%A2%98/"/>
-    <id>http://www.alblog.top/2021/01/22/Java/Mybatis%E5%A4%9A%E8%A1%A8%E5%85%B3%E8%81%94%E6%9F%A5%E8%AF%A2%E5%88%86%E9%A1%B5%E9%97%AE%E9%A2%98/</id>
-    <published>2021-01-22T07:15:00.000Z</published>
-    <updated>2021-01-22T07:15:00.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;背景&quot;&gt;&lt;a href=&quot;#背景&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    
-    <category term="Mybatis" scheme="http://www.alblog.top/tags/Mybatis/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Java - 一个接口多个实现时</title>
     <link href="http://www.alblog.top/2021/01/22/Java/%E4%B8%80%E4%B8%AA%E6%8E%A5%E5%8F%A3%E5%A4%9A%E4%B8%AA%E5%AE%9E%E7%8E%B0%E6%97%B6/"/>
     <id>http://www.alblog.top/2021/01/22/Java/%E4%B8%80%E4%B8%AA%E6%8E%A5%E5%8F%A3%E5%A4%9A%E4%B8%AA%E5%AE%9E%E7%8E%B0%E6%97%B6/</id>
@@ -322,6 +302,29 @@
     
     
     <category term="Java" scheme="http://www.alblog.top/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Mybatis - 多表关联查询分页问题</title>
+    <link href="http://www.alblog.top/2021/01/22/Java/Mybatis%E5%A4%9A%E8%A1%A8%E5%85%B3%E8%81%94%E6%9F%A5%E8%AF%A2%E5%88%86%E9%A1%B5%E9%97%AE%E9%A2%98/"/>
+    <id>http://www.alblog.top/2021/01/22/Java/Mybatis%E5%A4%9A%E8%A1%A8%E5%85%B3%E8%81%94%E6%9F%A5%E8%AF%A2%E5%88%86%E9%A1%B5%E9%97%AE%E9%A2%98/</id>
+    <published>2021-01-22T07:15:00.000Z</published>
+    <updated>2021-01-22T07:15:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;背景&quot;&gt;&lt;a href=&quot;#背景&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Mybatis" scheme="http://www.alblog.top/tags/Mybatis/"/>
     
   </entry>
   
@@ -349,30 +352,6 @@
   </entry>
   
   <entry>
-    <title>Linux - Linux命令行 光标移动技巧等</title>
-    <link href="http://www.alblog.top/2021/01/22/Linux/keymap/"/>
-    <id>http://www.alblog.top/2021/01/22/Linux/keymap/</id>
-    <published>2021-01-22T07:15:00.000Z</published>
-    <updated>2021-01-22T07:15:00.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;看一个真正的专家操作命令行绝对是一种很好的体验-光标在单词之间来回穿梭，命令行不同的滚动。&lt;br&gt;在这里强烈建立适应GUI节目的开发者尝试一下在提示符下面工作。&lt;br&gt;但是事情也不是那么简单，还是需要知道“如何去做”。&lt;/p&gt;
-&lt;h4 id=&quot;Ctrl组合&quot;&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    
-    <category term="Linux" scheme="http://www.alblog.top/tags/Linux/"/>
-    
-  </entry>
-  
-  <entry>
     <title>MinIO - MinIO上传文件错误解决办法（Linux）</title>
     <link href="http://www.alblog.top/2021/01/22/Linux/minioErr/"/>
     <id>http://www.alblog.top/2021/01/22/Linux/minioErr/</id>
@@ -386,6 +365,30 @@
         
     <summary type="html">&lt;h1 id=&quot;minio上传下载文件失败：&quot;&gt;&lt;a href=&quot;#minio上传下载文件失败：&quot; class=&quot;headerlink&quot; title=&quot;minio上传下载文件失败：&quot;&gt;&lt;/a&gt;minio上传下载文件失败：&lt;/h1&gt;&lt;p&gt;错误消息：&lt;/p&gt;
 &lt;figure</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Linux" scheme="http://www.alblog.top/tags/Linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux - Linux命令行 光标移动技巧等</title>
+    <link href="http://www.alblog.top/2021/01/22/Linux/keymap/"/>
+    <id>http://www.alblog.top/2021/01/22/Linux/keymap/</id>
+    <published>2021-01-22T07:15:00.000Z</published>
+    <updated>2021-01-22T07:15:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;看一个真正的专家操作命令行绝对是一种很好的体验-光标在单词之间来回穿梭，命令行不同的滚动。&lt;br&gt;在这里强烈建立适应GUI节目的开发者尝试一下在提示符下面工作。&lt;br&gt;但是事情也不是那么简单，还是需要知道“如何去做”。&lt;/p&gt;
+&lt;h4 id=&quot;Ctrl组合&quot;&gt;&lt;a</summary>
         
       
     
@@ -466,9 +469,9 @@
   </entry>
   
   <entry>
-    <title>ES6 - Promise 基础教程使用</title>
-    <link href="http://www.alblog.top/2021/01/15/JsLearn/Promise/"/>
-    <id>http://www.alblog.top/2021/01/15/JsLearn/Promise/</id>
+    <title>Github Copilot 的使用方法和快捷键</title>
+    <link href="http://www.alblog.top/2021/01/15/Vscode/Github-copilots/"/>
+    <id>http://www.alblog.top/2021/01/15/Vscode/Github-copilots/</id>
     <published>2021-01-15T09:15:00.000Z</published>
     <updated>2021-01-15T09:15:00.000Z</updated>
     
@@ -477,17 +480,14 @@
       
         
         
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;今天记录一篇ES6新知识 Promise&lt;br&gt;初次接触Promise 你可能会很懵逼 ，这TM是个什么玩意 ！康康过了官方文档之后也是一头雾水！！&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h5 id=&quot;话不多说，直接上干货&quot;&gt;&lt;a</summary>
+    <summary type="html">&lt;h2 id=&quot;Copilot-是什么&quot;&gt;&lt;a href=&quot;#Copilot-是什么&quot; class=&quot;headerlink&quot; title=&quot;Copilot 是什么&quot;&gt;&lt;/a&gt;Copilot 是什么&lt;/h2&gt;&lt;p&gt;Copilot (&lt;a</summary>
         
       
     
     
     
     
-    <category term="Js" scheme="http://www.alblog.top/tags/Js/"/>
+    <category term="Vscode" scheme="http://www.alblog.top/tags/Vscode/"/>
     
   </entry>
   

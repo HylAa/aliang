@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <description>feedId:71925257418896384+userId:59893085141689344</description>
+  <follow_challenge>
+    <feedId>71925257418896384</feedId>
+    <userId>59893085141689344</userId>
+</follow_challenge>
   <title>{{ config.title }}</title>
   {% if icon %}<icon>{{ icon }}</icon>{% endif %}
   {% if config.subtitle %}<subtitle>{{ config.subtitle }}</subtitle>{% endif %}
