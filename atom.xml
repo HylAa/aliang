@@ -10,7 +10,7 @@
   <link href="http://www.alblog.top/atom.xml" rel="self"/>
   
   <link href="http://www.alblog.top/"/>
-  <updated>2023-10-07T07:15:00.000Z</updated>
+  <updated>2024-11-02T09:15:00.000Z</updated>
   <id>http://www.alblog.top/</id>
   
   <author>
@@ -19,6 +19,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>IDEA - 插件开发</title>
+    <link href="http://www.alblog.top/2024/11/02/Java/Idea%E6%8F%92%E4%BB%B6%E5%BC%80%E5%8F%91/"/>
+    <id>http://www.alblog.top/2024/11/02/Java/Idea%E6%8F%92%E4%BB%B6%E5%BC%80%E5%8F%91/</id>
+    <published>2024-11-02T07:15:00.000Z</published>
+    <updated>2024-11-02T09:15:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;沉淀、分享、成长，让自己和他人都能有所收获！😄&lt;/p&gt;
+&lt;h1 id=&quot;一、前言&quot;&gt;&lt;a href=&quot;#一、前言&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Java" scheme="http://www.alblog.top/tags/Java/"/>
+    
+  </entry>
   
   <entry>
     <title>Git - Git规范整理</title>
@@ -164,30 +188,6 @@
   </entry>
   
   <entry>
-    <title>PgSql - PostGIS 在 PostgreSQL 中使用</title>
-    <link href="http://www.alblog.top/2022/09/13/PostgreSQL/PostGIS%20%E5%9C%A8%20PostgreSQL%20%E4%B8%AD%E4%BD%BF%E7%94%A8/"/>
-    <id>http://www.alblog.top/2022/09/13/PostgreSQL/PostGIS%20%E5%9C%A8%20PostgreSQL%20%E4%B8%AD%E4%BD%BF%E7%94%A8/</id>
-    <published>2022-09-13T01:48:00.000Z</published>
-    <updated>2022-09-13T01:48:00.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;介绍&quot;&gt;&lt;a href=&quot;#介绍&quot; class=&quot;headerlink&quot; title=&quot;介绍&quot;&gt;&lt;/a&gt;介绍&lt;/h3&gt;&lt;hr&gt;
-&lt;p&gt;首先来介绍一下 PostGIS 是什么？&lt;br&gt;PostGIS 是 PostgreSQL</summary>
-        
-      
-    
-    
-    
-    
-    <category term="PostgreSQL" scheme="http://www.alblog.top/tags/PostgreSQL/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Js - 逻辑运算符、断路运算符的应用</title>
     <link href="http://www.alblog.top/2022/09/13/JsLearn/Js%E9%80%BB%E8%BE%91%E8%BF%90%E7%AE%97%E7%AC%A6%E3%80%81%E6%96%AD%E8%B7%AF%E8%BF%90%E7%AE%97%E7%AC%A6%E7%9A%84%E5%BA%94%E7%94%A8/"/>
     <id>http://www.alblog.top/2022/09/13/JsLearn/Js%E9%80%BB%E8%BE%91%E8%BF%90%E7%AE%97%E7%AC%A6%E3%80%81%E6%96%AD%E8%B7%AF%E8%BF%90%E7%AE%97%E7%AC%A6%E7%9A%84%E5%BA%94%E7%94%A8/</id>
@@ -209,6 +209,30 @@
     
     
     <category term="Js" scheme="http://www.alblog.top/tags/Js/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PgSql - PostGIS 在 PostgreSQL 中使用</title>
+    <link href="http://www.alblog.top/2022/09/13/PostgreSQL/PostGIS%20%E5%9C%A8%20PostgreSQL%20%E4%B8%AD%E4%BD%BF%E7%94%A8/"/>
+    <id>http://www.alblog.top/2022/09/13/PostgreSQL/PostGIS%20%E5%9C%A8%20PostgreSQL%20%E4%B8%AD%E4%BD%BF%E7%94%A8/</id>
+    <published>2022-09-13T01:48:00.000Z</published>
+    <updated>2022-09-13T01:48:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;介绍&quot;&gt;&lt;a href=&quot;#介绍&quot; class=&quot;headerlink&quot; title=&quot;介绍&quot;&gt;&lt;/a&gt;介绍&lt;/h3&gt;&lt;hr&gt;
+&lt;p&gt;首先来介绍一下 PostGIS 是什么？&lt;br&gt;PostGIS 是 PostgreSQL</summary>
+        
+      
+    
+    
+    
+    
+    <category term="PostgreSQL" scheme="http://www.alblog.top/tags/PostgreSQL/"/>
     
   </entry>
   
@@ -283,29 +307,6 @@
   </entry>
   
   <entry>
-    <title>Java - 一个接口多个实现时</title>
-    <link href="http://www.alblog.top/2021/01/22/Java/%E4%B8%80%E4%B8%AA%E6%8E%A5%E5%8F%A3%E5%A4%9A%E4%B8%AA%E5%AE%9E%E7%8E%B0%E6%97%B6/"/>
-    <id>http://www.alblog.top/2021/01/22/Java/%E4%B8%80%E4%B8%AA%E6%8E%A5%E5%8F%A3%E5%A4%9A%E4%B8%AA%E5%AE%9E%E7%8E%B0%E6%97%B6/</id>
-    <published>2021-01-22T07:15:00.000Z</published>
-    <updated>2021-01-22T07:15:00.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;一、（Spring）项目-一个接口多个实现，指定实现类&quot;&gt;&lt;a href=&quot;#一、（Spring）项目-一个接口多个实现，指定实现类&quot; class=&quot;headerlink&quot; title=&quot;一、（Spring）项目</summary>
-        
-      
-    
-    
-    
-    
-    <category term="Java" scheme="http://www.alblog.top/tags/Java/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Mybatis - 多表关联查询分页问题</title>
     <link href="http://www.alblog.top/2021/01/22/Java/Mybatis%E5%A4%9A%E8%A1%A8%E5%85%B3%E8%81%94%E6%9F%A5%E8%AF%A2%E5%88%86%E9%A1%B5%E9%97%AE%E9%A2%98/"/>
     <id>http://www.alblog.top/2021/01/22/Java/Mybatis%E5%A4%9A%E8%A1%A8%E5%85%B3%E8%81%94%E6%9F%A5%E8%AF%A2%E5%88%86%E9%A1%B5%E9%97%AE%E9%A2%98/</id>
@@ -325,6 +326,29 @@
     
     
     <category term="Mybatis" scheme="http://www.alblog.top/tags/Mybatis/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java - 一个接口多个实现时</title>
+    <link href="http://www.alblog.top/2021/01/22/Java/%E4%B8%80%E4%B8%AA%E6%8E%A5%E5%8F%A3%E5%A4%9A%E4%B8%AA%E5%AE%9E%E7%8E%B0%E6%97%B6/"/>
+    <id>http://www.alblog.top/2021/01/22/Java/%E4%B8%80%E4%B8%AA%E6%8E%A5%E5%8F%A3%E5%A4%9A%E4%B8%AA%E5%AE%9E%E7%8E%B0%E6%97%B6/</id>
+    <published>2021-01-22T07:15:00.000Z</published>
+    <updated>2021-01-22T07:15:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;一、（Spring）项目-一个接口多个实现，指定实现类&quot;&gt;&lt;a href=&quot;#一、（Spring）项目-一个接口多个实现，指定实现类&quot; class=&quot;headerlink&quot; title=&quot;一、（Spring）项目</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Java" scheme="http://www.alblog.top/tags/Java/"/>
     
   </entry>
   
@@ -352,30 +376,6 @@
   </entry>
   
   <entry>
-    <title>MinIO - MinIO上传文件错误解决办法（Linux）</title>
-    <link href="http://www.alblog.top/2021/01/22/Linux/minioErr/"/>
-    <id>http://www.alblog.top/2021/01/22/Linux/minioErr/</id>
-    <published>2021-01-22T07:15:00.000Z</published>
-    <updated>2021-01-22T07:15:00.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;minio上传下载文件失败：&quot;&gt;&lt;a href=&quot;#minio上传下载文件失败：&quot; class=&quot;headerlink&quot; title=&quot;minio上传下载文件失败：&quot;&gt;&lt;/a&gt;minio上传下载文件失败：&lt;/h1&gt;&lt;p&gt;错误消息：&lt;/p&gt;
-&lt;figure</summary>
-        
-      
-    
-    
-    
-    
-    <category term="Linux" scheme="http://www.alblog.top/tags/Linux/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Linux - Linux命令行 光标移动技巧等</title>
     <link href="http://www.alblog.top/2021/01/22/Linux/keymap/"/>
     <id>http://www.alblog.top/2021/01/22/Linux/keymap/</id>
@@ -389,6 +389,30 @@
         
     <summary type="html">&lt;p&gt;看一个真正的专家操作命令行绝对是一种很好的体验-光标在单词之间来回穿梭，命令行不同的滚动。&lt;br&gt;在这里强烈建立适应GUI节目的开发者尝试一下在提示符下面工作。&lt;br&gt;但是事情也不是那么简单，还是需要知道“如何去做”。&lt;/p&gt;
 &lt;h4 id=&quot;Ctrl组合&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Linux" scheme="http://www.alblog.top/tags/Linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MinIO - MinIO上传文件错误解决办法（Linux）</title>
+    <link href="http://www.alblog.top/2021/01/22/Linux/minioErr/"/>
+    <id>http://www.alblog.top/2021/01/22/Linux/minioErr/</id>
+    <published>2021-01-22T07:15:00.000Z</published>
+    <updated>2021-01-22T07:15:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;minio上传下载文件失败：&quot;&gt;&lt;a href=&quot;#minio上传下载文件失败：&quot; class=&quot;headerlink&quot; title=&quot;minio上传下载文件失败：&quot;&gt;&lt;/a&gt;minio上传下载文件失败：&lt;/h1&gt;&lt;p&gt;错误消息：&lt;/p&gt;
+&lt;figure</summary>
         
       
     
@@ -457,7 +481,8 @@
       
         
         
-    <summary type="html">&lt;!--</summary>
+    <summary type="html">&lt;!--
+”感情开始时本就是你骗他、他骗你、自己骗自己的游戏。当局者是很难自我分化，无法判断自己喜欢他时他是否也喜欢自己，会不自觉给自己加戏。没恋爱经验的人很难识别对方是否喜欢自己，更别说看到真实的对方了。　　沉没成本不可追，就别再追加机会成本了。用于怀念过去的时间，你失去做其他</summary>
         
       
     
@@ -465,29 +490,6 @@
     
     
     <category term="Aliang" scheme="http://www.alblog.top/tags/Aliang/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Github Copilot 的使用方法和快捷键</title>
-    <link href="http://www.alblog.top/2021/01/15/Vscode/Github-copilots/"/>
-    <id>http://www.alblog.top/2021/01/15/Vscode/Github-copilots/</id>
-    <published>2021-01-15T09:15:00.000Z</published>
-    <updated>2021-01-15T09:15:00.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;Copilot-是什么&quot;&gt;&lt;a href=&quot;#Copilot-是什么&quot; class=&quot;headerlink&quot; title=&quot;Copilot 是什么&quot;&gt;&lt;/a&gt;Copilot 是什么&lt;/h2&gt;&lt;p&gt;Copilot (&lt;a</summary>
-        
-      
-    
-    
-    
-    
-    <category term="Vscode" scheme="http://www.alblog.top/tags/Vscode/"/>
     
   </entry>
   
